@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>AG TRAVEL AGENCY</title>
+    <script src="js/JavaScript.js"></script>
 </head>
 
 <body>
@@ -29,21 +30,28 @@
         </section>
 
         <section>
-           <form>
+            <P> Please enter your contact details</P>
+           <form onsubmit="return validateForm()">
             <label>Sure name:</label><br>
-            <input type="text" name="sureName"><br>
+            <input type="text" id="sureName"><br>
             <label>First name:</label><br>
-            <input type="text" name="firstName"><br>
+            <input type="text" id="firstName"><br>
             <label>Email address:</label><br>
-            <input type="text" name="firstName"><br>
+            <input type="email" id="email"><br>
+            <label>Phone number:</label><br>
+            <input type="text" id="phoneNumber"><br>
+            <label>question:</label><br>
+            <input type="text" id="question"><br>
+            <button type="submit">submit</button><br>
            </form>
-           <button> submit</button><br>
+           
 
         </section>
 
     </main>
     <footer>
-        <p> Address:O'Connelly street, Dublin 1, Ireland</p>
+        <p> Address:"O'Connelly street, Dublin 1, Ireland" </p>
+        
     </footer>
 
 
