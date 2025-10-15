@@ -67,3 +67,45 @@ form :hover{
     
     
 }
+.image-row {
+    display: flex;
+    justify-content:space-evenly; 
+    gap: 10px; 
+    padding: 10px;
+}
+
+.image-row img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+  
+}
+
+.text-row {
+    display: flex;
+    justify-content:space-evenly; 
+    gap: 10px; 
+    padding: 10px;
+    
+}
+.text-row label {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    text-align: center;
+  
+}
+.price-row {
+    display: flex;
+    justify-content:space-evenly; 
+    gap: 10px; 
+    padding: 10px;
+    
+}
+.price-row label {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    text-align: center;
+  
+}
