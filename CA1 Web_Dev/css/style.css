@@ -9,6 +9,7 @@ footer{
     background-color: brown;
     text-align: center;
     padding: 50px;
+    
 
 
 }
@@ -97,7 +98,7 @@ form :hover{
 }
 .price-row {
     display: flex;
-    justify-content:space-evenly; 
+    justify-content: space-evenly;
     gap: 10px; 
     padding: 10px;
     
@@ -108,4 +109,11 @@ form :hover{
     border-radius: 8px;
     text-align: center;
   
+}
+b{
+    display:inline;
+    justify-content: space-evenly;
+    gap: 50px;
+    padding: 30px;
+
 }
