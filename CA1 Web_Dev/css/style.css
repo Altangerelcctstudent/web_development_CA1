@@ -1,27 +1,33 @@
-header{
-    text-align: center;
-    padding: 50px;
+/* style for the header */
+header{ 
+    text-align: center; /* text centered */
+    padding: 50px; /* space inside header */
     background-image: url("../images/background.jpg");
-    color: white;
+    color: white; /* text color */
 
 }
+/* style for footer */
 footer{
-    background-color: brown;
-    text-align: center;
-    padding: 50px;
+    background-color: brown; /* text color */
+    text-align: center; /* center align text */
+    padding: 50px; /* space inside footer */
     
 
 
 }
+/* style for body part */
 body {
-margin: 0;
-height: 100vh;
-display: grid;
-grid-template-rows: auto 1fr auto;
-font-family: Arial, sans-serif;
+margin: 0; /* removing default margin */
+height: 100vh; /* full viewport height */
+display: grid; /* using css grid layout */
+grid-template-rows: auto 1fr auto; /* header, content, footer layout */
+font-family: Arial, sans-serif; /* font style */
 }
+/* main content layout */
 main {
-display: flex;
+display: flex; 
+
+/* left section style */
 }
 section:first-child{
     flex: 1;
@@ -29,6 +35,7 @@ section:first-child{
     border: 1px solid #ccc;
     background-color:  #f1f1f1;;
 
+/* right section style */
 }
 section:last-child{
     flex: 3;
