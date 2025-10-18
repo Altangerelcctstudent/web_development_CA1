@@ -15,7 +15,7 @@ function validateForm(){
         return false;
     }
      if(!sureNamePattern.test(sureName)){
-        alert("only letter");
+        alert("enter only letter pls");
         return false;
     }
     if(firstName==""){
