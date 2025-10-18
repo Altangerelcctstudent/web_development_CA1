@@ -43,9 +43,8 @@ function validateForm(){
 
     }
 
-    
-
-    
+    alert("successfully submitted!!! our staff will be in touch soon, Thank you!!");
+    return true;
 
     
 }
